@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+.root {
+  /* ### Primary */
+
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* ### Neutral */
+  --tranparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  width: 340px;
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+}
+.bitter {
+  background-color: hsl(31, 77%, 52%);
+  padding-right: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.kola {
+  background-color: hsl(184, 100%, 22%);
+  padding-right: 50px;
+}
+.uses {
+  background-color: hsl(179, 100%, 13%);
+  padding-right: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+h1 {
+  font-family: "big shoulders display", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+img {
+  width: 70px;
+}
+button {
+  width: 140px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+@media (width>768px) {
+  body {
+    width: 1440px;
+    padding: 0 300px;
+  }
+
+  .bitter {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+  }
+
+  .uses {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+  }
+}
